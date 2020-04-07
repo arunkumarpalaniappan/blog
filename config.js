@@ -8,7 +8,7 @@ module.exports = {
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 10,
-  googleAnalyticsId: '',
+  googleAnalyticsId: 'UA-92404962-1',
   useKatex: true,
   menu: [
     {
@@ -24,11 +24,11 @@ module.exports = {
       email: '',
       facebook: '',
       telegram: '',
-      twitter: 'https://twitter.com/imakrp',
-      github: 'https://github.com/arunkumarpalaniappan',
+      twitter: 'imakrp',
+      github: 'arunkumarpalaniappan',
       rss: '',
       vkontakte: '',
-      linkedin: 'https://linkedin.com/in/arunkumarpalaniappan',
+      linkedin: 'arunkumarpalaniappan',
       instagram: '',
       line: '',
       gitlab: '',
