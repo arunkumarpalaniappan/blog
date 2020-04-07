@@ -5,7 +5,7 @@ module.exports = {
   pathPrefix: '/',
   title: 'Arunkumar Palaniappan',
   subtitle: 'Full-Stack Developer',
-  copyright: '© All rights reserved.',
+  copyright: `© ${new Date().getFullYear()} All rights reserved.`,
   disqusShortname: '',
   postsPerPage: 10,
   googleAnalyticsId: 'UA-92404962-1',
