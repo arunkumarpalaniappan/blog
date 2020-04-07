@@ -9,7 +9,7 @@ module.exports = {
   disqusShortname: '',
   postsPerPage: 10,
   googleAnalyticsId: '',
-  useKatex: false,
+  useKatex: true,
   menu: [
     {
       label: 'Articles',
@@ -19,7 +19,7 @@ module.exports = {
   author: {
     name: 'Arunkumar Palaniappan',
     photo: '',
-    bio: '',
+    bio: 'Full-Stack Developer',
     contacts: {
       email: '',
       facebook: '',
