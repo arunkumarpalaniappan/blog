@@ -10,12 +10,6 @@ module.exports = {
   postsPerPage: 10,
   googleAnalyticsId: 'UA-92404962-1',
   useKatex: true,
-  menu: [
-    {
-      label: 'Articles',
-      path: '/'
-    }
-  ],
   author: {
     name: 'Arunkumar Palaniappan',
     photo: '',
