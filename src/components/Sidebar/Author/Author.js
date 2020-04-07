@@ -1,6 +1,6 @@
 // @flow strict
 import React from 'react';
-import { withPrefix, Link } from 'gatsby';
+import { Link } from 'gatsby';
 import styles from './Author.module.scss';
 
 type Props = {
@@ -14,7 +14,7 @@ type Props = {
 
 const Author = ({ author, isIndex }: Props) => (
   <div className={styles['author']}>
-    <Link to="/">
+    {/* <Link to="/">
       <img
         src={withPrefix(author.photo)}
         className={styles['author__photo']}
@@ -22,7 +22,7 @@ const Author = ({ author, isIndex }: Props) => (
         height="75"
         alt={author.name}
       />
-    </Link>
+    </Link> */}
 
     { isIndex === true ? (
       <h1 className={styles['author__title']}>
