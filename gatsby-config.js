@@ -29,13 +29,13 @@ module.exports = {
         name: 'media'
       }
     },
-    // {
-    //   resolve: 'gatsby-source-filesystem',
-    //   options: {
-    //     name: 'css',
-    //     path: `${__dirname}/static/css`
-    //   }
-    // },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'css',
+        path: `${__dirname}/static/css`
+      }
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -186,8 +186,7 @@ module.exports = {
         start_url: '/',
         background_color: '#FFF',
         theme_color: '#F7A046',
-        display: 'standalone',
-        icon: 'static/photo.jpg'
+        display: 'standalone'
       },
     },
     'gatsby-plugin-offline',
