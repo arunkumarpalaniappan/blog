@@ -16,16 +16,17 @@
 
   &__home-button {
     display: block;
-    max-width: 90px;
+    max-width: 180px;
     height: $button-height;
     padding: 0 24px;
     line-height: $button-height;
     text-align: center;
     color: $color-base;
-    border: 1px solid $color-gray-border;
-    border-radius: $button-border-radius;
-    font-size: $typographic-base-font-size;
-    font-weight: normal;
+    //border: 1px solid $color-gray-border;
+    //border-radius: $button-border-radius;
+    font-size: $typographic-base-font-size * 1.2;
+    font-weight: 500;
+    font-style: italic;
     margin-left: auto;
     margin-right: auto;
     @include margin-top(1);
