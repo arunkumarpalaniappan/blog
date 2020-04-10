@@ -1,5 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import styles from './Page.module.scss';
+import SEO from '../SEO';
 
 type Props = {
   title?: string,
@@ -15,6 +16,7 @@ const Page = ({ title, children }: Props) => {
 
   return (
     <div ref={pageRef} className={styles['page']}>
+      <SEO />
       <div className={styles['page__inner']}>
         { title && <h1 className={styles['page__title']}>{title}</h1>}
         <div className={styles['page__body']}>
