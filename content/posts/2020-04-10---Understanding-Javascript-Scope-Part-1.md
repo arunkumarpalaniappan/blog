@@ -1,28 +1,18 @@
 ---
-title: Understanding JavaScript Scope
+title: Understanding JavaScript Scope - Part 1
 date: "2020-04-10T16:45:00+05:30"
 template: "post"
 draft: false
-slug: "understanding-javascript-scope"
+slug: "understanding-javascript-scope-part-1"
 category: "JavaScript"
 tags:
   - "JavaScript"
   - "Scope"
   - "Basics"
-description: "Scope in JavaScipt? Most of the time, it's just the basics that we get wrong. Even the most experienced JavaScript developers will say that JS is interpreted language not compiled. Unfortunately, it's not true. JavaScript is compiled like most of the language with static types like C++, Java, etc"
+description: "Scope in JavaScipt? How this keyword is working, how function scope behaves in JS compiler? Interestingly JavaScript is compiled like most of the language with static types like C++, Java, etc"
 socialImage: "/media/image-2.jpg"
 ---
-Scope in JavaScipt? Most of the time, it's just the basics that we get wrong. Even the most experienced JavaScript developers will say that JS is interpreted language not compiled. Unfortunately,it's not true. JavaScript is compiled like most of the language with static types like C++, Java, etc.. Every line in JavaScript will be complied before being executed, In statically typed languages like Java, we distribute class files or in C++ where we distribute binary files to the end-user, whereas in JavaScript we distribute Source Javascript file directly and its compiled and then executed each time it was triggered.
 
-For the first time it will compile all variables and function declarations.Meaning, store variable declalrations(it may be in micro seconds, but it compiles) and then each lines will be executed/interpreted one by one.
-
-You may now wonder, what is the relation between Javascript compilation and Scope in JavaScript?
-
-To understand the Scope in JavaScript completely, we need to understand how JavaScript compiler works.
-
-Let's start with Variables, It's safe to define a functionality of a variable in JavaScript is to say the compiler, where it is declared, how is it defined or is it in the same lexical scope? and so. Then Scope means where to look for things in JavaScript environment.
-
-And the scope of JavaScript is at atomic level or say at a function level, to understand this better lets look at the following snippet of code.
 
 ```js
 var foo = "bar"; //line 1
@@ -99,27 +89,27 @@ Now, JS engine will see next nested scope, which is `functionBarScope` for the v
 
 Again, next atomic scope, here it will look in global scope / window for the variable declaration `bam`, which is not present.
 
-Again, It will **not throw, not defined error**  because global scope without strict mode will work differently, now global scope will create a variable called `bam` for us in global scope and say *I have a declartion for that variable*. Now assignment will happen at global scope.
+Again, It will **not throw, not defined error**  because global scope without strict mode will work differently, now global scope will create a variable called `bam` for us in global scope and say *I have a declaration for that variable*. Now assignment will happen at global scope.
 
 So all the executions are done for line 12.
 
-Now line 13, will print `bar`, because in current scope the value is not changed.
+Now line 13, will print `bar`, because in the current scope the value is not changed.
 
 Now at line 14, this will print `yay` , as it defined in global scope while executing the function `baz`.
 
 Now at line 15, what do you think it will happen?
 
-Will is create a function in global scope, as this is not in strict mode? *No*
+Will is create a function in the global scope, as this is not in strict mode? *No*
 
-Will it throw a error saying, *not defined*? *Yes*, but why?
+Will it throw an error saying, *not defined*? *Yes*, but why?
 
-This is not a LHS operation, wondering how to differentiate LHS and RHS operation, the operation, apart from variable/method definition without equalto(=) operator is considered as RHS Operation.
+This is not an LHS operation, wondering how to differentiate LHS and RHS operation, the operation, apart from variable/method definition without equal to(=) operator is considered as RHS Operation.
 
 So, JavaScript engine will look for a method definition `baz` in current scope i.e, global scope and it is not available in the global scope, So it throws **Uncaught ReferenceError: baz is not defined** error.
 
 Consider each scopes that is `globalScope`, `functionBarScope`, `functionBazScope` as `this`.
 
-These will be value of `this` of each scope after/during the execution.
+These will be the value of `this` of each scope after/during the execution.
 
 ```js
 this = {
@@ -133,4 +123,6 @@ this = {
   bam //globalScope
 }
 ```
-Hope this helps you to understand the basics of Scope in JS and gives you some understanding on how JavaScript behaves with/without strict mode. Still there are some different behaviour if we use `eval` and there is a lot more ground to be covered in *lexical scoping*, well that's for an another post, till then, Let JavaScript Scope guide you!
+Hope this helps you to understand the basics of Scope in JS and gives you some understanding on how JavaScript behaves with/without strict mode. Still there are some different behaviour if we use `eval` and there is a lot more ground to be covered in *lexical scoping*, Continue reading about scope at [Part 2](understanding-javascript-scope-part-2) of this blog.
+
+Inspired from [Advanced JavaScript by Kyle Simpson](https://app.pluralsight.com/library/courses/b47a6d25-df50-4577-9ff6-422d944b7c85/table-of-contents)
