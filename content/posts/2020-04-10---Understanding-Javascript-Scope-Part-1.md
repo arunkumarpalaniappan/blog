@@ -12,7 +12,17 @@ tags:
 description: "Scope in JavaScipt? How this keyword is working, how function scope behaves in JS compiler? Interestingly JavaScript is compiled like most of the language with static types like C++, Java, etc"
 socialImage: "/media/image-2.jpg"
 ---
+Scope in JavaScipt? Most of the time, it's just the basics that we get wrong. Even the most experienced JavaScript developers will say that JS is interpreted language not compiled. Unfortunately,it's not true. JavaScript is compiled like most of the language with static types like C++, Java, etc.. Every line in JavaScript will be complied before being executed, In statically typed languages like Java, we distribute class files or in C++ where we distribute binary files to the end-user, whereas in JavaScript we distribute Source Javascript file directly and its compiled and then executed each time it was triggered.
 
+For the first time it will compile all variables and function declarations.Meaning, store variable declarations(it may be in micro seconds, but it compiles) and then each lines will be executed/interpreted one by one.
+
+You may now wonder, what is the relation between Javascript compilation and Scope in JavaScript?
+
+To understand the Scope in JavaScript completely, we need to understand how JavaScript compiler works.
+
+Let's start with Variables, It's safe to define functionality of a variable in JavaScript is to say the compiler, where it is declared, how is it defined or is it in the same lexical scope? and so. Then Scope means where to look for things in the JavaScript environment.
+
+And the scope of JavaScript is at the atomic level or say at a function level, to understand `this` better lets look at the following snippet of code.
 
 ```js
 var foo = "bar"; //line 1
