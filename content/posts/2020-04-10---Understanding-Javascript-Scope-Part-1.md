@@ -117,12 +117,10 @@ This is not an LHS operation, wondering how to differentiate LHS and RHS operati
 
 So, JavaScript engine will look for a method definition `baz` in current scope i.e, global scope and it is not available in the global scope, So it throws **Uncaught ReferenceError: baz is not defined** error.
 
-Consider each scopes that is `globalScope`, `functionBarScope`, `functionBazScope` as `this`.
-
-These will be the value of `this` of each scope after/during the execution.
+We can visualize each scopes that is `globalScope`, `functionBarScope`, `functionBazScope` as following.
 
 ```js
-this = {
+globalScope = {
   foo, //globalScope
   bar : {
     foo, //functionBarScope
