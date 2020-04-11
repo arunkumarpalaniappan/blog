@@ -14,7 +14,7 @@ socialImage: "/media/image-2.jpg"
 ---
 Part 1 of this blog available at - [Understanding JavaScript Scope - Part 1](understanding-javascript-scope-part-1)
 
-As we already knew, JavaScript follows **lexical scoping** like most of the programming languages. Meaning lexical scoping is compile-time scope. At the time we wrote our code and the time our code got compiled, the scope got into stone, there is no more addition after the code is compiled or beyond the lexical phase. We explored about this in our [previous post (Understanding JavaScript Scope - Part 1)](understanding-javascript-scope-part-1), about how scope is defined at a global level, how it will change at the function level, nested scope and so on.
+As we already knew that the JavaScript follows **lexical scoping** like most of the programming languages. Meaning lexical scoping is compile-time scope. At the time we wrote our code and the time our code got compiled, the scope got into stone, there is no more addition after the code is compiled or beyond the lexical phase. We explored about this in our [previous post (Understanding JavaScript Scope - Part 1)](understanding-javascript-scope-part-1), about how scope is defined at a global level, how it will change at the function level, nested scope and so on.
 
 We will consider each nested scope as a nested bubble, one function scope inside a big bubble where it is defined and so on till global scope.
 
@@ -196,7 +196,7 @@ try {
 console.log(scope); //undefined
 ```
 
-<sup>*</sup>Scope is not accessible in all browsers except Internet Explorer 6 because of a bug which defines the catch variable to a global scope., But we can able to fix it, by following this document [https://github.com/firebug/firebug/issues/5107](https://github.com/firebug/firebug/issues/5107)
+<sup>*</sup>Scope is not accessible in all browsers except Internet Explorer 6 because of a bug which attaches the catch variable to a global scope. Apart from IE6, this try-catch will work in all major browsers.
 
 We will expore more about `this` keyword and bindings in our next blog post.
 
