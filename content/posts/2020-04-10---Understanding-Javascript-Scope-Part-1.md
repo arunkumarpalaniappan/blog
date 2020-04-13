@@ -133,4 +133,11 @@ globalScope = {
 ```
 Hope this helps you to understand the basics of Scope in JS and gives you some understanding on how JavaScript behaves with/without strict mode. Still there are some different behaviour if we use `eval` and there is a lot more ground to be covered in *lexical scoping*, Continue reading about scope at [Part 2](understanding-javascript-scope-part-2) of this blog.
 
-Inspired from [Advanced JavaScript by Kyle Simpson](https://app.pluralsight.com/library/courses/b47a6d25-df50-4577-9ff6-422d944b7c85/table-of-contents)
+
+
+
+References:
+
+* [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Variable_scope](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Variable_scope)
+* Advanced JavaScript by Kyle Simpson
+* [https://en.wikipedia.org/wiki/Scope_(computer_science)](https://en.wikipedia.org/wiki/Scope_(computer_science))

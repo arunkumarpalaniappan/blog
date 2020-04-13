@@ -198,6 +198,13 @@ console.log(scope); //undefined
 
 <sup>*</sup>Scope is not accessible in all browsers except Internet Explorer 6 because of a bug which attaches the catch variable to a global scope. Apart from IE6, this try-catch will work in all major browsers.
 
-We will expore more about `this` keyword and bindings in our next blog post.
+We will explore more about `this` keyword and bindings in our next blog post.
 
-Inspired from [Advanced JavaScript by Kyle Simpson](https://app.pluralsight.com/library/courses/b47a6d25-df50-4577-9ff6-422d944b7c85/table-of-contents)
+
+
+
+References:
+
+* [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Variable_scope](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Variable_scope)
+* Advanced JavaScript by Kyle Simpson
+* [https://en.wikipedia.org/wiki/Scope_(computer_science)](https://en.wikipedia.org/wiki/Scope_(computer_science))
