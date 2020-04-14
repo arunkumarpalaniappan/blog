@@ -12,6 +12,12 @@ tags:
 description: "Scope in JavaScipt? How this keyword is working, how function scope behaves in JS compiler? Interestingly JavaScript is compiled like most of the language with static types like C++, Java, etc"
 socialImage: "/media/image-2.jpg"
 ---
+
+This is the first part of **Understanding JavaScript Scope** Series.
+
+You can read the second and third part using link provided at end of this blog.
+
+
 Scope in JavaScipt? Most of the time, it's just the basics that we get wrong. Even the most experienced JavaScript developers will say that JS is interpreted language not compiled. Unfortunately,it's not true. JavaScript is compiled like most of the language with static types like C++, Java, etc.. Every line in JavaScript will be complied before being executed, In statically typed languages like Java, we distribute class files or in C++ where we distribute binary files to the end-user, whereas in JavaScript we distribute Source Javascript file directly and its compiled and then executed each time it was triggered.
 
 For the first time it will compile all variables and function declarations.Meaning, store variable declarations(it may be in micro seconds, but it compiles) and then each lines will be executed/interpreted one by one.
@@ -131,8 +137,11 @@ globalScope = {
   bam //globalScope
 }
 ```
-Hope this helps you to understand the basics of Scope in JS and gives you some understanding on how JavaScript behaves with/without strict mode. Still there are some different behaviour if we use `eval` and there is a lot more ground to be covered in *lexical scoping*, Continue reading about scope at [Part 2](understanding-javascript-scope-part-2) of this blog.
+Hope this helps you to understand the basics of Scope in JS and gives you some understanding on how JavaScript behaves with/without strict mode. Still there are some different behaviour if we use `eval` and there is a lot more ground to be covered in *lexical scoping*.
 
+Part 2 of this blog available at - [Understanding JavaScript Scope - Part 2](understanding-javascript-scope-part-2)
+
+Part 3 of this blog available at - [Understanding JavaScript Scope - Part 3](understanding-javascript-scope-part-3)
 
 
 
