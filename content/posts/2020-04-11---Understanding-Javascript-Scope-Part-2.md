@@ -6,7 +6,7 @@ draft: false
 slug: "understanding-javascript-scope-part-2"
 category: "JavaScript"
 tags:
-  - "JavaScript"
+  - "Understanding JavaScript"
   - "Scope"
   - "Basics"
 description: "There are different ways which we can use to cheat lexical scoping in JavaScript, we can use let, eval, with, even try-catch block that will work differently that normal scoping in JavaScript"

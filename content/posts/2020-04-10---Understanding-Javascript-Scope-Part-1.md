@@ -6,7 +6,7 @@ draft: false
 slug: "understanding-javascript-scope-part-1"
 category: "JavaScript"
 tags:
-  - "JavaScript"
+  - "Understanding JavaScript"
   - "Scope"
   - "Basics"
 description: "Scope in JavaScipt? How this keyword is working, how function scope behaves in JS compiler? Interestingly JavaScript is compiled like most of the language with static types like C++, Java, etc"
