@@ -9,7 +9,7 @@ tags:
   - "JavaScript"
   - "Scope"
   - "Basics"
-description: "The most important part of a scope is the JavaScript execution context. So what is exceution context? Its the context depends on 3 questions, How the function is called? From where the function is called?"
+description: "The most important part of a scope is the JavaScript execution context. So what is exceution context? Its the context depends on 2 questions, How the function is called? From where the function is called?"
 socialImage: "/media/image-2.jpg"
 ---
 
