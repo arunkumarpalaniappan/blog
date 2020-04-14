@@ -1,5 +1,5 @@
 ---
-title: Understanding JavaScript Scope - Part 1
+title: Understanding JavaScript - Scope - Part 1
 date: "2020-04-10T16:45:00+05:30"
 template: "post"
 draft: false
@@ -13,7 +13,7 @@ description: "Scope in JavaScipt? How this keyword is working, how function scop
 socialImage: "/media/image-2.jpg"
 ---
 
-This is the first part of **Understanding JavaScript Scope** Series.
+This is the first part of **Understanding JavaScript - Scope** Series.
 
 You can read the second and third part using link provided at end of this blog.
 
@@ -139,9 +139,9 @@ globalScope = {
 ```
 Hope this helps you to understand the basics of Scope in JS and gives you some understanding on how JavaScript behaves with/without strict mode. Still there are some different behaviour if we use `eval` and there is a lot more ground to be covered in *lexical scoping*.
 
-Part 2 of this blog available at - [Understanding JavaScript Scope - Part 2](understanding-javascript-scope-part-2)
+Part 2 of this blog available at - [Understanding JavaScript - Scope - Part 2](understanding-javascript-scope-part-2)
 
-Part 3 of this blog available at - [Understanding JavaScript Scope - Part 3](understanding-javascript-scope-part-3)
+Part 3 of this blog available at - [Understanding JavaScript - Scope - Part 3](understanding-javascript-scope-part-3)
 
 
 

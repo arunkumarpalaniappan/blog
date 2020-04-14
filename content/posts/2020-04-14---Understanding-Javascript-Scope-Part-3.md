@@ -1,5 +1,5 @@
 ---
-title: Understanding JavaScript Scope - Part 3
+title: Understanding JavaScript - Scope - Part 3
 date: "2020-04-14T13:15:00+05:30"
 template: "post"
 draft: false
@@ -13,13 +13,13 @@ description: "The most important part of a scope is the JavaScript execution con
 socialImage: "/media/image-2.jpg"
 ---
 
-This is the final part of **Understanding JavaScript Scope** Series.
+This is the final part of **Understanding JavaScript - Scope** Series.
 
 You can read the first two parts of the blog using the below link
 
-Part 1 of this blog available at - [Understanding JavaScript Scope - Part 1](understanding-javascript-scope-part-1)
+Part 1 of this blog available at - [Understanding JavaScript - Scope - Part 1](understanding-javascript-scope-part-1)
 
-Part 2 of this blog available at - [Understanding JavaScript Scope - Part 2](understanding-javascript-scope-part-2)
+Part 2 of this blog available at - [Understanding JavaScript - Scope - Part 2](understanding-javascript-scope-part-2)
 
 `this` keyword in JavaScript?
 

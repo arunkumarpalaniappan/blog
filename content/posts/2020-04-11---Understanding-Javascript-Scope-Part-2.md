@@ -1,5 +1,5 @@
 ---
-title: Understanding JavaScript Scope - Part 2
+title: Understanding JavaScript - Scope - Part 2
 date: "2020-04-11T16:45:00+05:30"
 template: "post"
 draft: false
@@ -12,15 +12,15 @@ tags:
 description: "There are different ways which we can use to cheat lexical scoping in JavaScript, we can use let, eval, with, even try-catch block that will work differently that normal scoping in JavaScript"
 socialImage: "/media/image-2.jpg"
 ---
-This is the second part of **Understanding JavaScript Scope** Series.
+This is the second part of **Understanding JavaScript - Scope** Series.
 
 You can read the first and third part using the below link
 
-Part 1 of this blog available at - [Understanding JavaScript Scope - Part 1](understanding-javascript-scope-part-1)
+Part 1 of this blog available at - [Understanding JavaScript - Scope - Part 1](understanding-javascript-scope-part-1)
 
-Part 3 of this blog available at - [Understanding JavaScript Scope - Part 3](understanding-javascript-scope-part-3)
+Part 3 of this blog available at - [Understanding JavaScript - Scope - Part 3](understanding-javascript-scope-part-3)
 
-As we already knew that the JavaScript follows **lexical scoping** like most of the programming languages. Meaning lexical scoping is compile-time scope. At the time we wrote our code and the time our code got compiled, the scope got into stone, there is no more addition after the code is compiled or beyond the lexical phase. We explored about this in our [previous post (Understanding JavaScript Scope - Part 1)](understanding-javascript-scope-part-1), about how scope is defined at a global level, how it will change at the function level, nested scope and so on.
+As we already knew that the JavaScript follows **lexical scoping** like most of the programming languages. Meaning lexical scoping is compile-time scope. At the time we wrote our code and the time our code got compiled, the scope got into stone, there is no more addition after the code is compiled or beyond the lexical phase. We explored about this in our [previous post (Understanding JavaScript - Scope - Part 1)](understanding-javascript-scope-part-1), about how scope is defined at a global level, how it will change at the function level, nested scope and so on.
 
 We will consider each nested scope as a nested bubble, one function scope inside a big bubble where it is defined and so on till global scope.
 
