@@ -8,15 +8,3 @@
 
 [[plugins]]
 package = "netlify-plugin-gatsby-cache"
-
-[[plugins]]
-package = "netlify-plugin-a11y"
-
-[[plugins]]
-package = netlify-plugin-search-index
-
-[[plugins]]
-package = "@netlify/plugin-sitemap"
-
-[[plugins]]
-package = "netlify-plugin-subfont"
