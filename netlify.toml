@@ -11,3 +11,9 @@
 
 [[plugins]]
   package = "netlify-plugin-subfont"
+
+[[plugins]]
+  package = "netlify-plugin-a11y"
+
+[[plugins]]
+  package = netlify-plugin-search-index
