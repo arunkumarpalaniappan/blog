@@ -7,7 +7,7 @@ module.exports = {
   subtitle: 'Full-Stack Developer',
   copyright: `© ${new Date().getFullYear()} lexicalgrammar.dev`,
   disqusShortname: '',
-  postsPerPage: 10,
+  postsPerPage: 5,
   googleAnalyticsId: 'UA-92404962-1',
   useKatex: true,
   author: {
