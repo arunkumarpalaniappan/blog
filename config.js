@@ -5,7 +5,7 @@ module.exports = {
   pathPrefix: '/',
   title: 'Arunkumar Palaniappan',
   subtitle: 'Full-Stack Developer',
-  copyright: `© ${new Date().getFullYear()} lexicalgrammar.dev`,
+  copyright: `© ${new Date().getFullYear()} practice.sh`,
   disqusShortname: '',
   postsPerPage: 5,
   googleAnalyticsId: 'UA-92404962-1',
