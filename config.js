@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lexicalgrammer.dev',
+  url: 'https://practice.sh/',
   pathPrefix: '/',
   title: 'Arunkumar Palaniappan',
   subtitle: 'Full-Stack Developer',
