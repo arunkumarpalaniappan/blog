@@ -12,9 +12,13 @@ tags:
 description: "Node JS runs on Single Thread. So the basic assumption is that Node can't handle more than huge API calls or huge data processing at a given point of time, this is a myth. Node JS allows us to take advantage of complete hardware for better performance, cluster"
 socialImage: "/media/image-2.jpg"
 ---
+This is the first part of **Understanding JavaScript - Child Process** Series.
+
+You can read the second part using link provided at end of this blog.
+
 Node JS runs on Single Thread. No matter how powerful the cloud instance or server may be, running on a single thread can only support a limited load. The fact that Node.js runs in a single thread does not mean that we cannot take advantage of multiple processes or cores in a hardware. Node JS allows us to take advantage of complete hardware for better performance, cluster module is an example for this usecase.
 
-Using multiple processes is one of the best way to scale and maintain a large sacle application and scalabity is by default available in Node JS. One of the ways that we achieve this is by using `child_process` module.
+Using multiple processes is one of the best way to scale and maintain a large scale application and scalabity is by default available in Node JS. One of the ways that we achieve this is by using `child_process` module.
 
 #### Child Processes Module
 
@@ -118,7 +122,7 @@ Using `exec` function is a good choice if we need to directly use the shell synt
 
 The `spawn` function is a much better choice when the size of the data is large, because that data will be streamed with the standard IO objects.
 
-Thats all for now and we will be learning more about `execFile` anf `fork` method in the next article, Stay tuned!
+Part 2 of this blog available at - [Understanding JavaScript - Child Process - Part 2](understanding-javascript-node-child-process-part-2)
 
 References:
 [https://nodejs.org/api/child_process.html](https://nodejs.org/api/child_process.html)
