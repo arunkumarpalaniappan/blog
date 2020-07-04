@@ -22,7 +22,7 @@ Sadly, No. Doing things asynchronously doesn't mean that it will execute paralle
 
 The main disadvantage of processing the entire information on the main thread is that browsers will become unresponsive sometimes and make us force close the web application.
 
-![safari-not-responding-image](https://edge.practice.sh/blog/2020/07/web-pages-are-not-responding.png)
+![safari-not-responding-image](https://res.cloudinary.com/practice-cdn/image/upload/v1593868247/blog/2020/07/web-pages-are-not-responding_psat9t.png)
 
 Web worker can spawn a new thread similar to `spawn` method in Node JS([Understanding Node JS Child Process - Part-1](/posts/2020/06/understanding-javascript-node-child-process-part-1)) and execute huge data processing in a separate thread, which makes the end-user experience better.
 
