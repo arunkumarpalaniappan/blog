@@ -2,7 +2,7 @@
 title: Understanding JavaScript - Web Workers 
 date: "2020-07-04T18:00:00+05:30"
 template: "post"
-draft: true
+draft: false
 slug: "understanding-javascript-web-workers"
 category: "JavaScript"
 tags:
