@@ -62,10 +62,7 @@ worker.terminate();
 ```
 
 5. **Handling Errors**
-Incase of any unexceptions, we can able to handle it using `onerror` event in the main thread. Error will have the following information
-* message
-* filename
-* lineno
+Incase of any unexceptions, we can able to handle it using `onerror` event in the main thread. Error will have `message`,`filename` and`lineno`.
 
 Implementing fiboonacci number using web workers
 
