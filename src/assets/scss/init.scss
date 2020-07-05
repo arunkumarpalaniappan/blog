@@ -4,6 +4,10 @@
 @import "mixins";
 @import "base";
 
+.theme-toggle-button > div {
+    display: inline-block !important;
+}
+
 body.light-mode {
     background-color: #fff;
     color: #333;
@@ -27,6 +31,9 @@ body.light-mode {
         color:#fff
     }
     a:hover, a:focus {
+        color: #5D93FF;
+    }
+    div > span > a {
         color: #5D93FF;
     }
   }
