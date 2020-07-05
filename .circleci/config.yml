@@ -12,12 +12,12 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-            - dependencies-{{ checksum "package-lock.lock" }}
+            - dependencies-{{ checksum "package-lock.json" }}
       - run: npm install
       - save_cache:
           paths:
             - node_modules
-          key: dependencies-{{ checksum "package-lock.lock" }}
+          key: dependencies-{{ checksum "package-lock.json" }}
 
   # lint:
   #   <<: *defaults
@@ -45,7 +45,7 @@ jobs:
           keys:
             - dependencies-{{ checksum "package-lock.lock" }}
       - run: npm install jest
-      - run: npm tun test:coverage --runInBand --no-cache
+      - run: yarn test:coverage --runInBand --no-cache
       - save_cache:
           key: coverage-{{ .Environment.CIRCLE_SHA1 }}
           paths:
