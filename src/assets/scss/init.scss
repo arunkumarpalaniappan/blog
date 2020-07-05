@@ -3,3 +3,30 @@
 @import "variables";
 @import "mixins";
 @import "base";
+
+body.light-mode {
+    background-color: #fff;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  body.dark-mode {
+    background-color: #282c35;
+    color: rgba(255,255,255,0.88);
+    h2 {
+        a, a:hover, a:focus {
+            color: #fff
+        }
+        a:hover, a:focus {
+            border-bottom: 1px solid #fff;
+        }
+    }
+    time {
+        color: #fff
+    }
+    a {
+        color:#fff
+    }
+    a:hover, a:focus {
+        color: #5D93FF;
+    }
+  }

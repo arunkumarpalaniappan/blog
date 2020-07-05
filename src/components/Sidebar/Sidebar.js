@@ -3,6 +3,7 @@ import React from 'react';
 import Author from './Author';
 import Contacts from './Contacts';
 import Copyright from './Copyright';
+import DarkModeToggle from '../DarkMode';
 // import Menu from './Menu';
 import styles from './Sidebar.module.scss';
 import { useSiteMetadata } from '../../hooks';
@@ -20,6 +21,7 @@ const Sidebar = ({ isIndex }: Props) => {
         <Author author={author} isIndex={isIndex} />
         {/* <Menu menu={menu} /> */}
         <Contacts contacts={author.contacts} />
+        <DarkModeToggle />
         <Copyright copyright={copyright} />
       </div>
     </div>
