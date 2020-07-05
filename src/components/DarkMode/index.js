@@ -28,7 +28,7 @@ const X = () => (
 
 const DarkModeToggle = () => {
   const darkMode = useDarkMode(false);
-  const [value, setValue] = useState(darkMode.value);
+  const [value, setValue] = useState(localStorage.darkMode && localStorage.darkMode.toString() === "true" ? true : false);
   return (
     <div className={'theme-toggle-button'}>
       Dark Theme :  <ToggleButton

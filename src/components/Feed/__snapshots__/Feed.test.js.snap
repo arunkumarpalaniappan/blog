@@ -14,7 +14,7 @@ exports[`Feed renders correctly 1`] = `
         className="feed__item-meta-time"
         dateTime="September 1, 2016"
       >
-        September 2016
+        01 September 2016
       </time>
       <span
         className="feed__item-meta-divider"
@@ -44,13 +44,14 @@ exports[`Feed renders correctly 1`] = `
       className="feed__item-description"
     >
       test_0
+       
+      <a
+        className="feed__item-readmore"
+        href="/test_0"
+      >
+        read more...
+      </a>
     </p>
-    <a
-      className="feed__item-readmore"
-      href="/test_0"
-    >
-      Read
-    </a>
   </div>
   <div
     className="feed__item"
@@ -62,7 +63,7 @@ exports[`Feed renders correctly 1`] = `
         className="feed__item-meta-time"
         dateTime="September 1, 2016"
       >
-        September 2016
+        01 September 2016
       </time>
       <span
         className="feed__item-meta-divider"
@@ -92,13 +93,14 @@ exports[`Feed renders correctly 1`] = `
       className="feed__item-description"
     >
       test_1
+       
+      <a
+        className="feed__item-readmore"
+        href="/test_1"
+      >
+        read more...
+      </a>
     </p>
-    <a
-      className="feed__item-readmore"
-      href="/test_1"
-    >
-      Read
-    </a>
   </div>
 </div>
 `;
