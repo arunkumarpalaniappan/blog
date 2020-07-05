@@ -43,7 +43,7 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-            - dependencies-{{ checksum "package-lock.lock" }}
+            - dependencies-{{ checksum "package-lock.json" }}
       - run: npm install jest
       - run: yarn test:coverage --runInBand --no-cache
       - save_cache:
