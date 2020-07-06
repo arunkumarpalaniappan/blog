@@ -40,7 +40,7 @@ In this article we're going to see the differences between `spawn()` and `exec()
 
 `spawn` launches a command in a new process , for example
 
-```
+```js
 const { spawn } = require('child_process');
 const childProcess = spawn('ls', ['-s', '-a', '-l']);
 ```
@@ -48,7 +48,7 @@ We can pass the arguments to the command executed by the spawn as array in the s
 
 For example,if we want an exit handler
 
-```
+```js
 childProcess.on('exit', code => {
   console.log(`Exit code is: ${code}`);
 });
@@ -66,7 +66,7 @@ These streams also inherited from EventEmitter. On readable streams there is dat
 
 Since stdin of the main process is a readable stream, we can directly pipe it into the stdin of the child process, which is a writeable stream.
 
-```
+```js
 const { spawn } = require('child_process');
 const childProcess = spawn('ls');
 process.stdin.pipe(childProcess.stdin)
@@ -76,7 +76,7 @@ for await (const data of childProcess.stdout) {
 ```
 We can also pass the output of one child process as the input to the another child process, as these are handled as streams in Node JS.
 
-```
+```js
 const { spawn } = require('child_process');
 const findProcess = spawn('find', ['.', '-type', 'f']);
 const wordCountProcess = spawn('wc', ['-l']);
@@ -88,7 +88,7 @@ for await (const data of wordCountProcess.stdout) {
 
 We can specify a directory to use for the command being executed by spawn using cwd option and environment variables to the child process using env option. The child process doesnot have access to environment variables of parent/caller.
 
-```
+```js
 const childProcess = spawn('echo $MODE', {
   cwd: '/home/arun/Documents/bin',
   env: { MODE: 'production' }
@@ -98,7 +98,7 @@ const childProcess = spawn('echo $MODE', {
 #### exec() method
 
 `spawn` doesn't create a shell to execute the command, but `exec` create a shell. So it is possible to specify the command to execute using the shell syntax. `exec` also buffers the command's entire output instead of using a stream.
-```
+```js
 const util = require('util');
 const exec = util.promisify(require('child_process').exec);
 async function main() {
