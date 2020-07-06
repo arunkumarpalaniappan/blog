@@ -32,8 +32,6 @@ const DarkModeToggle = () => {
   return (
     <div className={'theme-toggle-button'}>
       Dark Theme :  <ToggleButton
-                            inactiveLabel={<X/>}
-                            activeLabel={<Check/>}
                             value={value}
                             onToggle={(value) => {
                                if(!value) darkMode.enable();
