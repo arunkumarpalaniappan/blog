@@ -4,6 +4,13 @@
 @import "mixins";
 @import "base";
 
+@font-face {
+    font-family: VictorMono;
+    src: url('./VictorMono-MediumItalic.woff');
+  }
+.language-js {
+    font-family: 'VictorMono' !important;
+}
 .theme-toggle-button > div {
     display: inline-block !important;
 }
