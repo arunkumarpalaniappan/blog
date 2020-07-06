@@ -9,6 +9,9 @@ import Tags from './Tags';
 import styles from './Post.module.scss';
 import type { Node } from '../../types';
 
+const darkLogo = require("./logo_dark.png");
+const whiteLogo = require("./logo_white.png");
+
 type Props = {
   post: Node
 };
@@ -20,8 +23,8 @@ const Post = ({ post }: Props) => {
 
   return (
     <div className={styles['post']}>
-      <Link className={styles['post__home-button']} to="/">{'{practice.sh}'}</Link>
-
+      <Link id="white-logo" className={styles['post__home-button']} to="/"><img src={whiteLogo} alt="Logo" /></Link>
+      <Link id="dark-logo" className={styles['post__home-button']} to="/"><img src={darkLogo} alt="Logo" /></Link>
       <div className={styles['post__content']}>
         <Content body={html} title={title} readingTime={readingTime} date={date} />
       </div>
