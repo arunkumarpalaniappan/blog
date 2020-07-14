@@ -7,7 +7,7 @@ slug: "understanding-javascript-web-workers"
 category: "JavaScript"
 tags:
   - "Understanding JavaScript"
-  - "Web Workers"
+  - "Date API"
   - "Frontend"
 description: "Browser JavaScript is Single Threaded,So the basic assumption is that we can't process huge data in JavaScript in Parallel with normal DOM Oprerations, Unfortunately this is just an assumption, we can make browser to execute scripts parallely on Browser"
 socialImage: "/media/image-2.jpg"
