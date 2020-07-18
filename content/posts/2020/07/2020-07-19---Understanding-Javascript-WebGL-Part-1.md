@@ -10,6 +10,6 @@ tags:
   - "Web GL"
   - "Graphics in JS"
   - "Frontend"
-description: "In this post we will be exploring more about WEb GL Basics. Web GL is the library used in JavaScript to view or create High GraPhics application on Browser. We can develop even games using JavaScipt that can be accessed using a Browser!"
+description: "In this post we will be exploring more about WEb GL Basics. Web GL is the library used in JavaScript to view or create High GraPhics application on Browser. We can develop even games using JavaScipt that can be accessed using a Browser! Most important "
 socialImage: "/media/image-2.jpg"
 ---
