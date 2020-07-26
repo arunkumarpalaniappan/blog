@@ -2,8 +2,8 @@
 title: Fixing JavaScript Date API
 date: "2020-07-17T18:00:00+05:30"
 template: "post"
-draft: false
-slug: "understanding-javascript-web-workers"
+draft: true
+slug: "understanding-javascript-web-workers-1"
 category: "JavaScript"
 tags:
   - "Understanding JavaScript"
