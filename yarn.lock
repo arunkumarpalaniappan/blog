@@ -1385,7 +1385,7 @@
   version "7.9.6"
   resolved "https://registry.yarnpkg.com/@babel/standalone/-/standalone-7.9.6.tgz#7a5f82c6fa29959b12f708213be6de8ec0b79338"
   integrity sha512-UE0vm/4vuwzGgGNY9wR78ft3DUcHvAU0o/esXas2qjUL8yHMAEc04OmLkb3dfkUwlqbQ4+vC1OLBzwhcoIqLsA==
-  
+
 "@babel/template@^7.1.0", "@babel/template@^7.4.4":
   version "7.4.4"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.4.4.tgz#f4b88d1225689a08f5bc3a17483545be9e4ed237"
@@ -2840,6 +2840,11 @@
   integrity sha512-0LGOfohIoCmBf66QEV8pdwehJUZkViGZLmwPoHwcZUx1ONgKsGTzjdNBdNnvCzfuaRLlsXj8r7GmO5M6oVKjsg==
   dependencies:
     wonka "^4.0.10"
+
+"@use-it/event-listener@^0.1.2":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@use-it/event-listener/-/event-listener-0.1.3.tgz#a9920b2819d211cf55e68e830997546eec6886d3"
+  integrity sha512-UCHkLOVU+xj3/1R8jXz8GzDTowkzfIDPESOBlVC2ndgwUSBEqiFdwCoUEs2lcGhJOOiEdmWxF+T23C5+60eEew==
 
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"
@@ -4941,10 +4946,10 @@ code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
 
-codecov@^3.6.5:
-  version "3.6.5"
-  resolved "https://registry.yarnpkg.com/codecov/-/codecov-3.6.5.tgz#d73ce62e8a021f5249f54b073e6f2d6a513f172a"
-  integrity sha512-v48WuDMUug6JXwmmfsMzhCHRnhUf8O3duqXvltaYJKrO1OekZWpB/eH6iIoaxMl8Qli0+u3OxptdsBOYiD7VAQ==
+codecov@^3.7.1:
+  version "3.7.2"
+  resolved "https://registry.yarnpkg.com/codecov/-/codecov-3.7.2.tgz#998e68c8c1ef4b55cfcf11cd456866d35e13d693"
+  integrity sha512-fmCjAkTese29DUX3GMIi4EaKGflHa4K51EoMc29g8fBHawdk/+KEq5CWOeXLdd9+AT7o1wO4DIpp/Z1KCqCz1g==
   dependencies:
     argv "0.0.2"
     ignore-walk "3.0.3"
@@ -8012,6 +8017,14 @@ gatsby-plugin-sitemap@^2.3.1:
     pify "^3.0.0"
     sitemap "^1.13.0"
 
+gatsby-plugin-use-dark-mode@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-use-dark-mode/-/gatsby-plugin-use-dark-mode-1.1.2.tgz#d012c5d493ca61404ef302fe2e485c61069632dc"
+  integrity sha512-qZEg4XmCgeq4M7ojxMUTFFj951QMGb95pWnxsSvb4nsTWTYSb0qeRE+hR/4rE5GIFnh/w9GrwuyMwStM7o7R6Q==
+  dependencies:
+    prop-types "^15.7.2"
+    terser "^4.0.0"
+
 gatsby-react-router-scroll@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/gatsby-react-router-scroll/-/gatsby-react-router-scroll-2.3.0.tgz#55889b6c395a0d57d163fb72827b73f798a86c56"
@@ -11026,7 +11039,7 @@ js-tokens@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-3.0.2.tgz#9866df395102130e38f7f996bceb65443209c25b"
 
-js-yaml@3.13.1, js-yaml@^3.10.0, js-yaml@^3.11.0, js-yaml@^3.12.2, js-yaml@^3.13.1:
+js-yaml@3.13.1, js-yaml@^3.10.0, js-yaml@^3.11.0, js-yaml@^3.13.1:
   version "3.13.1"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.13.1.tgz#aff151b30bfdfa8e49e05da22e7415e9dfa37847"
   integrity sha512-YfbcO7jXDdyj0DGxYVSlSeQNHbD7XPWvrVWeVUujrQEoZzWJIRrCPoyk6kL6IAjAG2IolMK4T0hNUe0HOUs5Jw==
@@ -11536,6 +11549,11 @@ lodash.uniq@4.5.0, lodash.uniq@^4.5.0:
 lodash@^4.0.0, lodash@^4.1.1, lodash@^4.11.1, lodash@^4.15.0, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0, lodash@~4.17.10:
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
+
+lodash@^4.17.16:
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 log-symbols@^2.2.0:
   version "2.2.0"
@@ -13783,6 +13801,11 @@ pend@~1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/pend/-/pend-1.2.0.tgz#7a57eb550a6783f9115331fcf4663d5c8e007a50"
 
+performance-now@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-0.2.0.tgz#33ef30c5c77d4ea21c5a53869d91b56d8f2555e5"
+  integrity sha1-M+8wxcd9TqIcWlOGnZG1bY8lVeU=
+
 performance-now@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
@@ -14666,7 +14689,7 @@ quickselect@^1.0.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/quickselect/-/quickselect-1.1.1.tgz#852e412ce418f237ad5b660d70cffac647ae94c2"
 
-raf@^3.4.0:
+raf@^3.1.0, raf@^3.4.0:
   version "3.4.1"
   resolved "https://registry.yarnpkg.com/raf/-/raf-3.4.1.tgz#0742e99a4a6552f445d73e3ee0328af0ff1ede39"
   dependencies:
@@ -14946,6 +14969,15 @@ react-monaco-editor@^0.25.1:
     monaco-editor "^0.16.0"
     prop-types "^15.7.2"
 
+react-motion@^0.5.2:
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/react-motion/-/react-motion-0.5.2.tgz#0dd3a69e411316567927917c6626551ba0607316"
+  integrity sha512-9q3YAvHoUiWlP3cK0v+w1N5Z23HXMj4IF4YuvjvWegWqNPfLXsOBE/V7UvQGpXxHFKRQQcNcVQE31g9SB/6qgQ==
+  dependencies:
+    performance-now "^0.2.0"
+    prop-types "^15.5.8"
+    raf "^3.1.0"
+
 react-onclickoutside@^6.5.0:
   version "6.8.0"
   resolved "https://registry.yarnpkg.com/react-onclickoutside/-/react-onclickoutside-6.8.0.tgz#9f91b5b3ed59f4d9e43fd71620dc200773a4d569"
@@ -15088,6 +15120,14 @@ react-textarea-autosize@^7.1.0:
   dependencies:
     "@babel/runtime" "^7.1.2"
     prop-types "^15.6.0"
+
+react-toggle-button@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/react-toggle-button/-/react-toggle-button-2.2.0.tgz#a1b92143aa0df414642fcb141f0879f545bc5a89"
+  integrity sha1-obkhQ6oN9BRkL8sUHwh59UW8Wok=
+  dependencies:
+    prop-types "^15.6.0"
+    react-motion "^0.5.2"
 
 react-toggled@^1.1.2:
   version "1.2.7"
@@ -17656,6 +17696,15 @@ terser-webpack-plugin@^1.4.3:
     webpack-sources "^1.4.0"
     worker-farm "^1.7.0"
 
+terser@^4.0.0:
+  version "4.8.0"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-4.8.0.tgz#63056343d7c70bb29f3af665865a46fe03a0df17"
+  integrity sha512-EAPipTNeWsb/3wLPeup1tVPaXfIaU68xMnVdPafIL1TV05OhASArYyIfFvnvJCNrR2NIOvDVNNTFRa+Re2MWyw==
+  dependencies:
+    commander "^2.20.0"
+    source-map "~0.6.1"
+    source-map-support "~0.5.12"
+
 terser@^4.1.2:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/terser/-/terser-4.2.1.tgz#1052cfe17576c66e7bc70fcc7119f22b155bdac1"
@@ -18452,6 +18501,21 @@ urql@^1.9.7:
   dependencies:
     "@urql/core" "^1.11.0"
     wonka "^4.0.9"
+
+use-dark-mode@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/use-dark-mode/-/use-dark-mode-2.3.1.tgz#d506349c7b7e09e9977cb8a6ab4470896aa3779a"
+  integrity sha512-hmcdJR96tTustRQdaQwe6jMrZHnmPqXBxgy4jaQ4gsfhwajsCpjECuq9prgDe9XxMx/f9r96o2/md6O4Lwhwjg==
+  dependencies:
+    "@use-it/event-listener" "^0.1.2"
+    use-persisted-state "^0.3.0"
+
+use-persisted-state@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/use-persisted-state/-/use-persisted-state-0.3.0.tgz#f8e3d2fd8eee67e0c86fd596c3ea3e8121c07402"
+  integrity sha512-UlWEq0JYg7NbvcRBZ1g6Bwe4SEbYfr1wr/D5mrmfCzSxXSwsPRYygGLlsxHcW58Rf7gGwRPBT23sNVvyVn4WYg==
+  dependencies:
+    "@use-it/event-listener" "^0.1.2"
 
 use@^3.1.0:
   version "3.1.1"
