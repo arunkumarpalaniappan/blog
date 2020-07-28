@@ -217,7 +217,8 @@ module.exports = {
     { 
       resolve: `gatsby-plugin-purgecss`,
       options: {
-        printRejected: true
+        printRejected: true,
+        ignore: ['/src/assets/init.scss']
       }
     },
     'gatsby-plugin-flow',
