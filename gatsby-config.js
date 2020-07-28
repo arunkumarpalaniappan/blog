@@ -17,6 +17,12 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-nprogress`,
+      options: {
+        showSpinner: true
+      },
+    },
+    {
       resolve: `gatsby-plugin-advanced-sitemap`
     },
     {
@@ -145,13 +151,6 @@ module.exports = {
     },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
-    'gatsby-plugin-netlify',
-    {
-      resolve: 'gatsby-plugin-netlify-cms',
-      options: {
-        modulePath: `${__dirname}/src/cms/index.js`,
-      }
-    },
     {
       resolve: 'gatsby-plugin-google-gtag',
       options: {
@@ -215,7 +214,13 @@ module.exports = {
         }
       }
     },
+    { 
+      resolve: `gatsby-plugin-purgecss`,
+      options: {
+        printRejected: true
+      }
+    },
     'gatsby-plugin-flow',
-    'gatsby-plugin-optimize-svgs',
+    'gatsby-plugin-optimize-svgs'
   ]
 };
