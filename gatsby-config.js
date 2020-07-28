@@ -214,13 +214,6 @@ module.exports = {
         }
       }
     },
-    { 
-      resolve: `gatsby-plugin-purgecss`,
-      options: {
-        printRejected: true,
-        ignore: ['/src/assets/init.scss']
-      }
-    },
     'gatsby-plugin-flow',
     'gatsby-plugin-optimize-svgs'
   ]
