@@ -14,6 +14,12 @@
 .theme-toggle-button > div {
     display: inline-block !important;
 }
+.theme-button {
+    border: none;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+}
 
 body.light-mode {
     background-color: #fff;
@@ -27,7 +33,7 @@ body.light-mode {
     }
   }
   body.dark-mode {
-    background-color: #282c35;
+    background-color: #151515;
     color: rgba(255,255,255,0.88);
     transition: background-color 0.5s ease;
     #white-logo {

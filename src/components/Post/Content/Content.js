@@ -12,7 +12,6 @@ type Props = {
 
 const countCoffee = (minutes) => {
   const cups = Math.ceil(minutes / 5);
-  console.log(cups)
   if (cups > 5) {
     return `${new Array(Math.round(cups / Math.E))
       .fill('🍱')
