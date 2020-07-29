@@ -5,11 +5,11 @@
 @import "base";
 
 @font-face {
-    font-family: VictorMono;
-    src: url('./VictorMono-MediumItalic.woff');
+    font-family: SourceCodePro;
+    src: url('./SourceCodePro-Medium.ttf');
   }
 .language-js {
-    font-family: 'VictorMono' !important;
+    font-family: 'SourceCodePro' !important;
 }
 .theme-toggle-button > div {
     display: inline-block !important;
