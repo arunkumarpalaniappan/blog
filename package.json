@@ -14,7 +14,9 @@
     "lint": "concurrently \"yarn run lint:js\" \"yarn run lint:scss\" \"yarn flow\"",
     "test": "jest --config ./jest/jest-config.js",
     "test:coverage": "jest --coverage --config ./jest/jest-config.js",
-    "test:watch": "jest --watch --config ./jest/jest-config.js"
+    "test:watch": "jest --watch --config ./jest/jest-config.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "repository": "https://github.com/arunkumarpalaniappan/blog",
   "author": "Arunkumar Palaniappan",
@@ -103,5 +105,6 @@
     "stylelint": "13.3.0",
     "stylelint-config-recommended-scss": "4.2.0",
     "stylelint-scss": "3.16.0"
-  }
+  },
+  "snyk": true
 }
