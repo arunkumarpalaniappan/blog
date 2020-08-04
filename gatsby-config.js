@@ -23,6 +23,26 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-gdpr-cookies`,
+      options: {
+        googleAnalytics: {
+          trackingId: 'UA-92404962-1',
+          cookieName: 'practice-sh-gdpr-google-analytics', 
+          anonymize: true
+        },
+        googleTagManager: {
+          trackingId: '', 
+          cookieName: 'practice-sh-gdpr-google-tagmanager', 
+          dataLayerName: 'dataLayer'
+        },
+        facebookPixel: {
+          pixelId: '', 
+          cookieName: 'practice-sh-gdpr-facebook-pixel',
+        },
+        environments: ['production', 'development']
+      },
+    },
+    {
       resolve: `gatsby-plugin-nprogress`,
       options: {
         showSpinner: true
