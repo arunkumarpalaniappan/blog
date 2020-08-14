@@ -11,6 +11,20 @@
 .language-js {
     font-family: 'SourceCodePro' !important;
 }
+.gatsby-highlight pre[class~="language-js"]:before {
+    content: "js";
+    background: #f7df1e;
+    color: var(--theme-ui-colors-black,#000);
+    letter-spacing: 0.025rem;
+    padding: 0.1rem 0.5rem;
+    position: absolute;
+    text-align: right;
+    text-transform: uppercase;
+    border-radius: 0 0 0.25rem 0.25rem;
+    font-size: 0.65rem;
+    margin-top: -15px;
+    margin-left: -10px;
+}
 .theme-toggle-button > div {
     display: inline-block !important;
 }
