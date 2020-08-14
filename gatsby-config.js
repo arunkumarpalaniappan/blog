@@ -17,12 +17,6 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-google-adsense`,
-      options: {
-        publisherId: `ca-pub-6162096241391067`
-      },
-    },
-    {
       resolve: `gatsby-plugin-gdpr-cookies`,
       options: {
         googleAnalytics: {
