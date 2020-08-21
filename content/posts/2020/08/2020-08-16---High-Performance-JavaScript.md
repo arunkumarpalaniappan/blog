@@ -126,7 +126,7 @@ for (let i=0;i<2e6;i++){
 }
 ```
 
-![perf-array-push](https://res.cloudinary.com/practice-cdn/image/upload/v1597999718/blog/2020/08/perf-array-push_rkch74.png)
+![perf-array-push](https://res.cloudinary.com/practice-cdn/image/upload/v1597999718/blog/2020/08/perf-array-push.png)
 
 Again there is not much of a difference between  `array.push` and `array[n]`, Personally I prefer accessing using length than pushing because we know exactly where we’re adding the data.
 
