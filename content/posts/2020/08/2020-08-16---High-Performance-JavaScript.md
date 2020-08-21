@@ -1,5 +1,5 @@
 ---
-title: High Performance JavaScript 
+title: High Performance JavaScript
 date: "2020-08-16T11:30:00+05:30"
 template: "post"
 draft: false
@@ -8,7 +8,7 @@ category: "JavaScript"
 tags:
   - "JavaScript"
   - "Performance"
-description: "In JavaScript, we can do the same thing in more than one way and its a good thing(mostly!)., even though some ways are not recommended, JavaScript has it. The only reason for such parts in JavaScript is, fixing it will break all those web application built using those bad parts. In this post”
+description: "In JavaScript, we can do the same thing in more than one way and its a good thing(mostly!)., even though some ways are not recommended, JavaScript has it. The only reason for such parts in JavaScript is, fixing it will break all those web application built using those bad parts."
 socialImage: "/media/image-2.jpg"
 ---
 In JavaScript, we can do the same thing in more than one way and its a good thing(mostly!)., even though some ways are not recommended, JavaScript has it. The only reason for such parts in JavaScript is, fixing it will break all those web application built using those bad parts.
@@ -155,6 +155,4 @@ len = _.size(obj);
 Thanks for reading! Yes, we skipped some other ways which we can use to perform these operations, But I hope that you had a better insight on performance metrics of these operations than before.
 
 Lets build a faster web.
-
-This content was originally posted on [ High Performance JavaScript with Arunkumar Palaniappan](https://practice.sh/posts/2020/08/high-performance-javascript)
 
