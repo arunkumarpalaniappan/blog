@@ -109,7 +109,7 @@ result = array.join("");
 
 ![perf-array-join](https://res.cloudinary.com/practice-cdn/image/upload/v1597998827/blog/2020/08/perf-array-join.png)
 
-As you can see, `array.join` is slightly providing better performance that Normal String concatenation. With respect to String Concatenation, we can use `array.join` or default `+=`. 
+As you can see, `array.join` is providing better performance that Normal String concatenation. With respect to String Concatenation, we can use `array.join`.
 
 ### array.push vs array[length]
 When building a fairly large application in JavaScript, we tend to use arrays. And again we have more than one ways to insert the data into an array. We will be doing performance tests for top two ways to insert data in an array.
