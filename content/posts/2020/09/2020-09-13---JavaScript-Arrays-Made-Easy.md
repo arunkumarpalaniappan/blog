@@ -60,7 +60,7 @@ array.length = 0;
 let array = [0,1,2,3,4];
 array.splice(0,array.length);
 ```
-![perf-array-empty](https://res.cloudinary.com/practice-cdn/image/upload/v1600421968/blog/2020/09/unshif-concat-spread_hvlvuv.png)
+![perf-array-empty](https://res.cloudinary.com/practice-cdn/image/upload/v1600422461/blog/2020/09/assignment-length-splice_zxz6dp.png)
 
 ### Remove the duplicates from an array
 
