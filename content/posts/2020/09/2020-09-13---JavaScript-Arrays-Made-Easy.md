@@ -64,7 +64,7 @@ array.splice(0,array.length);
 
 ### Remove the duplicates from an array
 
-Again, we can use a library like lodash or use native implemention like ```Set``` or use ```filter``` to remove duplicates, but which is the efficient way?
+Again, we can use a library like lodash or use native implementation like ```Set``` or use ```filter``` to remove duplicates, but which is the efficient way?
 
 ```js
 // using Set
@@ -93,7 +93,7 @@ As we can see, the naive implementation with ```filter``` is performing better t
 
 ### Removing a specific element from an array
 
-We can remove a specific element using many ways, from my interactions with fellow developers, I found that most used methods are using ```splice```, ```slice``` and own implementaion on prototype chain using ```for``` loop.
+We can remove a specific element using many ways, from my interactions with fellow developers, I found that most used methods are using ```splice```, ```slice``` and own implementation on prototype chain using ```for``` loop.
 
 ```js
 // splice
