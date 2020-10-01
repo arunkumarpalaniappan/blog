@@ -14,6 +14,9 @@ socialImage: "/media/image-2.jpg"
 ---
 Welcome to series **Made easy with JavaScript**. In this series we will be exploring some quick and efficient methods to do day to day operations in JavaScript. We will start with arrays. Everyday we are doing various operations like  appending, checking element, inserting, sorting, etc.., to process data in our web application. In this post we will be exploring the best ways to do these operations.
 
+You can read Part 2 of this series **Made easy with JavaScript Objects** at  [https://practice.sh](https://practice.sh/posts/2020/09/made-easy-with-javascript-objects)
+
+
 
 ### Adding new element at the beginning
 
