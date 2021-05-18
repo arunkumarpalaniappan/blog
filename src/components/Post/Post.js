@@ -23,8 +23,8 @@ const Post = ({ post }: Props) => {
 
   return (
     <div className={styles['post']}>
-      <Link id="white-logo" className={styles['post__home-button']} to="/"><img src={whiteLogo} alt="Logo" /></Link>
-      <Link id="dark-logo" className={styles['post__home-button']} to="/"><img src={darkLogo} alt="Logo" /></Link>
+      <Link id="white-logo" className={styles['post__home-button']} to="/"><span style={{ fontFamily: 'Sacramento', fontSize: 45 }}>Arunkumar<br/>Palaniappan</span></Link>
+      <Link id="dark-logo" className={styles['post__home-button']} to="/"><span style={{ fontFamily: 'Sacramento', fontSize: 45 }}>Arunkumar<br/>Palaniappan</span></Link>
       <div className={styles['post__content']}>
         <Content body={html} title={title} readingTime={readingTime} date={date} />
       </div>

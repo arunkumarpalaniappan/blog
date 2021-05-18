@@ -1,11 +1,11 @@
 'use strict';
 
 module.exports = {
-  url: 'https://practice.sh/',
+  url: 'https://akrp.in/',
   pathPrefix: '/',
   title: 'Arunkumar Palaniappan',
   subtitle: 'Full-Stack Developer',
-  copyright: `© ${new Date().getFullYear()} practice.sh`,
+  copyright: `© 2020 - ${new Date().getFullYear()} akrp.in`,
   disqusShortname: '',
   postsPerPage: 5,
   googleAnalyticsId: 'UA-92404962-1',
@@ -13,7 +13,7 @@ module.exports = {
   author: {
     name: 'Arunkumar Palaniappan',
     photo: '',
-    bio: 'Full-Stack Developer',
+    bio: 'I\'m a Full Stack Developer who loves working in Java Script, I have worked as a software developer since 2015.',
     contacts: {
       email: '',
       facebook: '',

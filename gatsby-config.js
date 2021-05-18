@@ -186,7 +186,7 @@ module.exports = {
               ],
               prompt: {
                 user: "root",
-                host: "practice.sh",
+                host: "akrp.in",
                 global: false,
               },
               escapeEntities: {},

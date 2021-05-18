@@ -26,14 +26,14 @@ const Author = ({ author, isIndex }: Props) => (
 
     { isIndex === true ? (
       <h1 className={styles['author__title']}>
-        <Link className={styles['author__title-link']} to="/">{author.name}</Link>
+        <Link className={styles['author__title-link']} style={{ fontFamily: 'Sacramento', fontSize: 45, fontWeight: 100 }} to="/">{author.name}</Link>
       </h1>
     ) : (
       <h2 className={styles['author__title']}>
-        <Link className={styles['author__title-link']} to="/">{author.name}</Link>
+        <Link className={styles['author__title-link']} style={{ fontFamily: 'Sacramento', fontSize: 45, fontWeight: 100 }} to="/">{author.name}</Link>
       </h2>
     )}
-    <p className={styles['author__subtitle']}>{author.bio}</p>
+    <p className={styles['author__subtitle']} style={{ fontFamily: 'KoHo', fontWeight: 'bold' }}>{author.bio}</p>
   </div>
 );
 
