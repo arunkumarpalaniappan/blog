@@ -15,7 +15,7 @@ socialImage: "/media/image-2.jpg"
 Welcome to series **Made easy with JavaScript**. In this series we will be exploring some quick and efficient methods to do day to day operations in JavaScript. This post will explore on the most used operations/actions. Let’s get started.
 
 
-You can read Part 1 of this series **Made easy with JavaScript Arrays** at  [https://practice.sh](https://practice.sh/posts/2020/09/made-easy-with-javascript-array)
+You can read Part 1 of this series **Made easy with JavaScript Arrays** at  [https://akrp.in](https://akrp.in/posts/2020/09/made-easy-with-javascript-array)
 
 
 ###  Checking for a key exists in object

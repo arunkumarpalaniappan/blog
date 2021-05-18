@@ -9,7 +9,7 @@ const Author = () => {
 
   return (
     <div className={styles['author']}>
-      <p className={styles['author__bio']}>
+      <p className={styles['author__bio']} style={{ fontFamily: 'KoHo', fontWeight: 'bold' }}>
         {author.bio}
         <a
           className={styles['author__bio-twitter']}

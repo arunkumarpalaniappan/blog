@@ -8,6 +8,14 @@
     font-family: SourceCodePro;
     src: url('./SourceCodePro-Medium.ttf');
   }
+  @font-face {
+    font-family: Sacramento;
+    src: url('./Sacramento.woff2');
+  }
+  @font-face {
+    font-family: KoHo;
+    src: url('./KoHo.woff2');
+  }
 .language-js {
     font-family: 'SourceCodePro' !important;
 }
