@@ -13,7 +13,7 @@ module.exports = {
   author: {
     name: 'Arunkumar Palaniappan',
     photo: '',
-    bio: 'I\'m a Full Stack Developer who loves working in Java Script, I have worked as a software developer since 2015.',
+    bio: 'I\'m a Full Stack Developer who loves working in JavaScript, I have worked as a software developer since 2015.',
     contacts: {
       email: '',
       facebook: '',
