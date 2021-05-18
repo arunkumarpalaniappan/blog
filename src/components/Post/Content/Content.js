@@ -21,7 +21,7 @@ const countCoffee = (minutes) => {
 };
 
 const Content = ({ body, title, readingTime, date }: Props) => (
-  <div className={styles['content']}>
+  <div className={styles['content']} style={{ paddingTop: 20 }}>
     <h1 className={styles['content__title']}>{title}</h1>
     <div className={styles['content__title__read__time']}>{moment(date).format('MMMM DD,YYYY')} • {countCoffee(readingTime.minutes)} {readingTime.text}</div>
     <div className={styles['content__body']} dangerouslySetInnerHTML={{ __html: body }} />
