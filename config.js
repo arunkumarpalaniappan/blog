@@ -5,7 +5,7 @@ module.exports = {
   pathPrefix: '/',
   title: 'Arunkumar Palaniappan',
   subtitle: 'Full-Stack Developer',
-  copyright: `© 2020 - ${new Date().getFullYear()} akrp.in/akp.cx`,
+  copyright: `© 2020 - ${new Date().getFullYear()} akrp.in`,
   disqusShortname: '',
   postsPerPage: 5,
   googleAnalyticsId: 'UA-92404962-1',
