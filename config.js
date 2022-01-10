@@ -13,7 +13,7 @@ module.exports = {
   author: {
     name: 'Arunkumar Palaniappan',
     photo: '',
-    bio: 'I\'m a Full Stack Developer who loves working in JavaScript, I have worked as a software developer since 2015.',
+    bio: 'Software Engineer 2 @ PayPal. Working on React, Node, Mongo DB, Postgres, Spring Boot, GCP and Azure. Learning Remix.JS',
     contacts: {
       email: '',
       facebook: '',
